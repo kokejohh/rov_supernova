@@ -1,0 +1,55 @@
+<!DOCtYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/output.css">
+    <title>Waiting</title>
+</head>
+
+<body class="bg-slate-500">
+    <nav class="bg-slate-700 flex justify-between">
+        <div class="flex">
+            <a href="#">
+                <div class="p-4 space-y-1">
+                    <div class="w-6 h-0.5 bg-white"></div>
+                    <div class="w-6 h-0.5 bg-white"></div>
+                    <div class="w-6 h-0.5 bg-white"></div>
+                </div>
+            </a>
+            <a href="./index.html" class="text-left"><img class="h-10" src="../img/logo_removebg.png"></a>
+        </div>
+        <a href="index.html" class="my-auto text-white pr-4">Reset</a>
+    </nav>
+    <div class="space-y-2 text-center text-white text-xl">
+        <img class="mt-4 mx-auto" src="../img/logo_rov.png">
+        <div class="TEAM">
+            <div>Blue</div>
+            <div class="space-x-2">
+                <input class="bg-blue-900 under-input w-1/2" type="url" value="www.facebook.com" readonly>
+                <a href="main.html" class="p-2 btn-t-yellow">Open Link</a>
+                <button id="btn_cpy_link_blue" class="p-2 btn-yellow">Copy Link</button>
+            </div>
+        </div>
+        <div class="TEAM">
+            <div>Red</div>
+            <div class="space-x-2">
+                <input class="bg-red-900 under-input w-1/2" type="url" value="www.google.com" readonly>
+                <a href="main.html" class="p-2 btn-t-yellow">Open Link</a>
+                <button id="btn_cpy_link_red" class="p-2 btn-yellow">Copy Link</button>
+            </div>
+        </div>
+        <div class="TEAM">
+            <div>Spectator</div>
+            <div class="space-x-2">
+                <input class="bg-slate-900 under-input w-1/2" type="url" value="www.tiktox.com" readonly>
+                <a href="main.html" class="p-2 btn-t-yellow">Open Link</a>
+                <button class="p-2 btn-yellow">Copy Link</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/waiting.js"></script>
+</body>
+</html>

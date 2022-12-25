@@ -1,0 +1,788 @@
+{
+    "character": [
+        {
+            "id": "1",
+            "name": "Airi",
+            "position": ["assassin", "fighter"],
+            "img_pf": "Airi.jpeg",
+            "img_bg": "Airi-bg.jpeg"
+        },
+        {
+            "id": "2",
+            "name": "Aleister",
+            "position": ["mage"],
+            "img_pf": "Aleister.jpg",
+            "img_bg": "Aleister-bg.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Alice",
+            "position": ["support"],
+            "img_pf": "Alice.png",
+            "img_bg": "Alice-bg.png"
+        },
+        {
+            "id": "4",
+            "name": "Allian",
+            "position": ["fighter"],
+            "img_pf": "Allain.jpg",
+            "img_bg": "Allain-bg.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Amily",
+            "position": ["assassin", "fighter"],
+            "img_pf": "Amily.png",
+            "img_bg": "Amily-bg.png"
+        },
+        {
+            "id": "6",
+            "name": "Annette",
+            "position": ["mage", "support"],
+            "img_pf": "Annette.png",
+            "img_bg": "Annette-bg.png"
+        },
+        {
+            "id": "7",
+            "name": "Aoi",
+            "position": ["assassin"],
+            "img_pf": "Aoi.jpeg",
+            "img_bg": "Aoi-bg.jpeg"
+        },
+        {
+            "id": "8",
+            "name": "Arduin",
+            "position": ["fighter", "tank"],
+            "img_pf": "Arduin.png",
+            "img_bg": "Arduin-bg.png"
+        },
+        {
+            "id": "9",
+            "name": "Arum",
+            "position": ["tank"],
+            "img_pf": "Arum.png",
+            "img_bg": "Arum-bg.png"
+        },
+        {
+            "id": "10",
+            "name": "Astrid",
+            "position": ["fighter"],
+            "img_pf": "Astrid.png",
+            "img_bg": "Astrid-bg.png"
+        },
+        {
+            "id": "11",
+            "name": "Ata",
+            "position": ["fighter", "tank"],
+            "img_pf": "Ata.jpg",
+            "img_bg": "Ata-bg.png"
+        },
+        {
+            "id": "12",
+            "name": "Aya",
+            "position": ["support"],
+            "img_pf": "Aya.jpg",
+            "img_bg": "Aya-bg.jpg"
+        },
+        {
+            "id": "13",
+            "name": "Azzen'Ka",
+            "position": ["mage"],
+            "img_pf": "Azzen'Ka.png",
+            "img_bg": "Azzen'Ka-bg.png"
+        },
+        {
+            "id": "14",
+            "name": "Baldum",
+            "position": ["tank"],
+            "img_pf": "Baldum.png",
+            "img_bg": "Baldum-bg.png"
+        },
+        {
+            "id": "15",
+            "name": "Batman",
+            "position": ["assassin", "fighter"],
+            "img_pf": "Batman.png",
+            "img_bg": "Batman-bg.png"
+        },
+        {
+            "id": "16",
+            "name": "Bright",
+            "position": ["assassin", "carry"],
+            "img_pf": "Bright.jpg",
+            "img_bg": "Bright-bg.jpg"
+        },
+        {
+            "id": "17",
+            "name": "Butterfly",
+            "position": ["assassin"],
+            "img_pf": "Butterfly.jpeg",
+            "img_bg": "Butterfly-bg.png"
+        },
+        {
+            "id": "18",
+            "name": "Capheny",
+            "position": ["carry"],
+            "img_pf": "Capheny.png",
+            "img_bg": "Capheny-bg.jpg"
+        },
+        {
+            "id": "19",
+            "name": "Celica",
+            "position": ["carry"],
+            "img_pf": "Celica.jpg",
+            "img_bg": "Celica-bg.jpg"
+        },
+        {
+            "id": "20",
+            "name": "Chaugnar",
+            "position": ["tank", "support"],
+            "img_pf": "Chaugnar.png",
+            "img_bg": "Chaugnar-bg.png"
+        },
+        {
+            "id": "21",
+            "name": "Cresht",
+            "position": ["tank", "support"],
+            "img_pf": "Cresht.png",
+            "img_bg": "Cresht-bg.png"
+        },
+        {
+            "id": "22",
+            "name": "D'Arcy",
+            "position": ["mage"],
+            "img_pf": "D'Arcy.png",
+            "img_bg": "D'Arcy-bg.png"
+        },
+        {
+            "id": "23",
+            "name": "Dextra",
+            "position": ["fighter"],
+            "img_pf": "Dextra.jpg",
+            "img_bg": "Dextra-bg.jpg"
+        },
+        {
+            "id": "24",
+            "name": "Diao chan",
+            "position": ["mage"],
+            "img_pf": "Diao chan.png",
+            "img_bg": "Diao chan-bg.png"
+        },
+        {
+            "id": "25",
+            "name": "Dirak",
+            "position": ["mage"],
+            "img_pf": "Dirak.jpg",
+            "img_bg": "Dirak-bg.png"
+        },
+        {
+            "id": "26",
+            "name": "Eland'orr",
+            "position": ["carry"],
+            "img_pf": "Eland'orr.jpg",
+            "img_bg": "Eland'orr-bg.jpg"
+        },
+        {
+            "id": "27",
+            "name": "Elsu",
+            "position": ["carry"],
+            "img_pf": "Elsu.png",
+            "img_bg": "Elsu-bg.png"
+        },
+        {
+            "id": "28",
+            "name": "Enzo",
+            "position": ["assassin"],
+            "img_pf": "Enzo.jpeg",
+            "img_bg": "Enzo-bg.png"
+        },
+        {
+            "id": "29",
+            "name": "Errol",
+            "position": ["fighter"],
+            "img_pf": "Errol.jpg",
+            "img_bg": "Errol-bg.png"
+        },
+        {
+            "id": "30",
+            "name": "Fennik",
+            "position": ["carry"],
+            "img_pf": "Fennik.png",
+            "img_bg": "Fennik-bg.png"
+        },
+        {
+            "id": "31",
+            "name": "Florentino",
+            "position": ["fighter"],
+            "img_pf": "Florentino.png",
+            "img_bg": "Florentino-bg.png"
+        },
+        {
+            "id": "32",
+            "name": "Gildur",
+            "position": ["mage", "tank"],
+            "img_pf": "Gildur.png",
+            "img_bg": "Gildur-bg.png"
+        },
+        {
+            "id": "33",
+            "name": "Grakk",
+            "position": ["tank", "support"],
+            "img_pf": "Grakk.png",
+            "img_bg": "Grakk-bg.png"
+        },
+        {
+            "id": "34",
+            "name": "Hayate",
+            "position": ["carry"],
+            "img_pf": "Hayate.png",
+            "img_bg": "Hayate-bg.png"
+        },
+        {
+            "id": "35",
+            "name": "IGGY",
+            "position": ["mage"],
+            "img_pf": "IGGY.jpeg",
+            "img_bg": "IGGY-bg.jpeg"
+        },
+        {
+            "id": "36",
+            "name": "Ignis",
+            "position": ["mage"],
+            "img_pf": "Ignis.png",
+            "img_bg": "Ignis-bg.png"
+        },
+        {
+            "id": "37",
+            "name": "Illumia",
+            "position": ["mage"],
+            "img_pf": "Illumia.png",
+            "img_bg": "Illumia-bg.png"
+        },
+        {
+            "id": "38",
+            "name": "Ishar",
+            "position": ["mage"],
+            "img_pf": "Ishar.jpg",
+            "img_bg": "Ishar-bg.jpg"
+        },
+        {
+            "id": "39",
+            "name": "Jinna",
+            "position": ["mage"],
+            "img_pf": "Jinna.png",
+            "img_bg": "Jinna-bg.png"
+        },
+        {
+            "id": "40",
+            "name": "Kahlii",
+            "position": ["mage"],
+            "img_pf": "Kahlii.png",
+            "img_bg": "Kahlii-bg.png"
+        },
+        {
+            "id": "41",
+            "name": "Keera",
+            "position": ["assassin", "mage"],
+            "img_pf": "Keera.jpg",
+            "img_bg": "Keera-bg.jpg"
+        },
+        {
+            "id": "42",
+            "name": "Kil'Groth",
+            "position": ["fighter"],
+            "img_pf": "Kil'Groth.png",
+            "img_bg": "Kil'Groth-bg.png"
+        },
+        {
+            "id": "43",
+            "name": "Kriknak",
+            "position": ["assassin"],
+            "img_pf": "Kriknak.png",
+            "img_bg": "Kriknak-bg.png"
+        },
+        {
+            "id": "44",
+            "name": "Krixi",
+            "position": ["mage"],
+            "img_pf": "Krixi.png",
+            "img_bg": "Krixi-bg.png"
+        },
+        {
+            "id": "45",
+            "name": "Krizzix",
+            "position": ["support"],
+            "img_pf": "Krizzix.png",
+            "img_bg": "Krizzix-bg.jpg"
+        },
+        {
+            "id": "46",
+            "name": "Lauriel",
+            "position": ["mage"],
+            "img_pf": "Lauriel.png",
+            "img_bg": "Lauriel-bg.jpg"
+        },
+        {
+            "id": "47",
+            "name": "Laville",
+            "position": ["carry"],
+            "img_pf": "Laville.jpg",
+            "img_bg": "Laville-bg.jpg"
+        },
+        {
+            "id": "48",
+            "name": "Liliana",
+            "position": ["mage"],
+            "img_pf": "Liliana.png",
+            "img_bg": "Liliana-bg.jpg"
+        },
+        {
+            "id": "49",
+            "name": "Lindis",
+            "position": ["carry"],
+            "img_pf": "Lindis.png",
+            "img_bg": "Lindis-bg.png"
+        },
+        {
+            "id": "50",
+            "name": "Lorion",
+            "position": ["mage"],
+            "img_pf": "Lorion.jpg",
+            "img_bg": "Lorion-bg.jpg"
+        },
+        {
+            "id": "51",
+            "name": "Lu Bu",
+            "position": ["fighter"],
+            "img_pf": "Lu Bu.png",
+            "img_bg": "Lu Bu-bg.png"
+        },
+        {
+            "id": "52",
+            "name": "Lumburr",
+            "position": ["tank", "support"],
+            "img_pf": "Lumburr.png",
+            "img_bg": "Lumburr-bg.png"
+        },
+        {
+            "id": "53",
+            "name": "Maloch",
+            "position": ["fighter", "tank"],
+            "img_pf": "Maloch.png",
+            "img_bg": "Maloch-bg.png"
+        },
+        {
+            "id": "54",
+            "name": "Marja",
+            "position": ["mage"],
+            "img_pf": "Marja.png",
+            "img_bg": "Marja-bg.png"
+        },
+        {
+            "id": "55",
+            "name": "Max",
+            "position": ["fighter"],
+            "img_pf": "Max.png",
+            "img_bg": "Max-bg.png"
+        },
+        {
+            "id": "56",
+            "name": "Mganga",
+            "position": ["mage", "support"],
+            "img_pf": "Mganga.png",
+            "img_bg": "Mganga-bg.png"
+        },
+        {
+            "id": "57",
+            "name": "Mina",
+            "position": ["tank", "support"],
+            "img_pf": "Mina.png",
+            "img_bg": "Mina-bg.png"
+        },
+        {
+            "id": "58",
+            "name": "Moren",
+            "position": ["carry"],
+            "img_pf": "Moren.png",
+            "img_bg": "Moren-bg.jpg"
+        },
+        {
+            "id": "59",
+            "name": "Mortos",
+            "position": ["fighter", "tank"],
+            "img_pf": "Mortos.jpg",
+            "img_bg": "Mortos-bg.jpg"
+        },
+        {
+            "id": "60",
+            "name": "Murad",
+            "position": ["assassin", "fighter"],
+            "img_pf": "Murad.png",
+            "img_bg": "Murad-bg.jpg"
+        },
+        {
+            "id": "61",
+            "name": "Nakroth",
+            "position": ["assassin"],
+            "img_pf": "Nakroth.jpeg",
+            "img_bg": "Nakroth-bg.png"
+        },
+        {
+            "id": "62",
+            "name": "Natalya",
+            "position": ["mage"],
+            "img_pf": "Natalya.png",
+            "img_bg": "Natalya-bg.jpg"
+        },
+        {
+            "id": "63",
+            "name": "Omega",
+            "position": ["tank", "support"],
+            "img_pf": "Omega.png",
+            "img_bg": "Omega-bg.jpg"
+        },
+        {
+            "id": "64",
+            "name": "Omen",
+            "position": ["fighter"],
+            "img_pf": "Omen.png",
+            "img_bg": "Omen-bg.jpg"
+        },
+        {
+            "id": "65",
+            "name": "Ormarr",
+            "position": ["fighter", "tank"],
+            "img_pf": "Ormarr.png",
+            "img_bg": "Ormarr-bg.jpg"
+        },
+        {
+            "id": "66",
+            "name": "Paine",
+            "position": ["assassin", "mage"],
+            "img_pf": "Paine.jpg",
+            "img_bg": "Paine-bg.jpg"
+        },
+        {
+            "id": "67",
+            "name": "Preyta",
+            "position": ["mage"],
+            "img_pf": "Preyta.png",
+            "img_bg": "Preyta-bg.jpg"
+        },
+        {
+            "id": "68",
+            "name": "Qi",
+            "position": ["fighter"],
+            "img_pf": "Qi.png",
+            "img_bg": "Qi-bg.jpg"
+        },
+        {
+            "id": "69",
+            "name": "Quillen",
+            "position": ["assassin"],
+            "img_pf": "Quillen.png",
+            "img_bg": "Quillen-bg.jpg"
+        },
+        {
+            "id": "70",
+            "name": "Raz",
+            "position": ["mage"],
+            "img_pf": "Raz.png",
+            "img_bg": "Raz-bg.jpg"
+        },
+        {
+            "id": "71",
+            "name": "Riktor",
+            "position": ["fighter", "tank"],
+            "img_pf": "Riktor.png",
+            "img_bg": "Riktor-bg.jpg"
+        },
+        {
+            "id": "72",
+            "name": "Rouie",
+            "position": ["support"],
+            "img_pf": "Rouie.jpg",
+            "img_bg": "Rouie-bg.jpg"
+        },
+        {
+            "id": "73",
+            "name": "Rourke",
+            "position": ["fighter"],
+            "img_pf": "Rourke.png",
+            "img_bg": "Rourke-bg.jpg"
+        },
+        {
+            "id": "74",
+            "name": "Roxie",
+            "position": ["fighter", "tank"],
+            "img_pf": "Roxie.jpg",
+            "img_bg": "Roxie-bg.jpg"
+        },
+        {
+            "id": "75",
+            "name": "Ryoma",
+            "position": ["assassin", "fighter"],
+            "img_pf": "Ryoma.png",
+            "img_bg": "Ryoma-bg.jpg"
+        },
+        {
+            "id": "76",
+            "name": "Sephera",
+            "position": ["mage", "support"],
+            "img_pf": "Sephera.png",
+            "img_bg": "Sephera-bg.jpg"
+        },
+        {
+            "id": "77",
+            "name": "Sinestrea",
+            "position": ["assassin"],
+            "img_pf": "Sinestrea.jpg",
+            "img_bg": "Sinestrea-bg.jpg"
+        },
+        {
+            "id": "78",
+            "name": "Skud",
+            "position": ["fighter", "tank"],
+            "img_pf": "Skud.png",
+            "img_bg": "Skud-bg.jpg"
+        },
+        {
+            "id": "79",
+            "name": "Slimz",
+            "position": ["carry"],
+            "img_pf": "Slimz.png",
+            "img_bg": "Slimz-bg.jpg"
+        },
+        {
+            "id": "80",
+            "name": "Super man",
+            "position": ["fighter"],
+            "img_pf": "Super man.png",
+            "img_bg": "Super man-bg.jpg"
+        },
+        {
+            "id": "81",
+            "name": "Taara",
+            "position": ["fighter", "tank"],
+            "img_pf": "Taara.png",
+            "img_bg": "Taara-bg.jpg"
+        },
+        {
+            "id": "82",
+            "name": "Tachi",
+            "position": ["fighter"],
+            "img_pf": "Tachi.png",
+            "img_bg": "Tachi-bg.jpg"
+        },
+        {
+            "id": "83",
+            "name": "TeeMee",
+            "position": ["tank", "support"],
+            "img_pf": "TeeMee.png",
+            "img_bg": "TeeMee-bg.jpg"
+        },
+        {
+            "id": "84",
+            "name": "Teeri",
+            "position": ["carry"],
+            "img_pf": "Teeri.jpg",
+            "img_bg": "Teeri-bg.jpg"
+        },
+        {
+            "id": "85",
+            "name": "Tel'Annas",
+            "position": ["carry"],
+            "img_pf": "Tel'Annas.jpg",
+            "img_bg": "Tel'Annas-bg.jpg"
+        },
+        {
+            "id": "86",
+            "name": "Thane",
+            "position": ["fighter", "tank", "support"],
+            "img_pf": "Thane.png",
+            "img_bg": "Thane-bg.jpg"
+        },
+        {
+            "id": "87",
+            "name": "The Flash",
+            "position": ["assassin", "mage"],
+            "img_pf": "The Flash.png",
+            "img_bg": "The Flash-bg.jpg"
+        },
+        {
+            "id": "88",
+            "name": "The Joker",
+            "position": ["carry"],
+            "img_pf": "The Joker.png",
+            "img_bg": "The Joker-bg.jpg"
+        },
+        {
+            "id": "89",
+            "name": "Thorne",
+            "position": ["carry"],
+            "img_pf": "Thorne.jpg",
+            "img_bg": "Thorne-bg.jpg"
+        },
+        {
+            "id": "90",
+            "name": "Toro",
+            "position": ["tank", "support"],
+            "img_pf": "Toro.png",
+            "img_bg": "Toro-bg.jpg"
+        },
+        {
+            "id": "91",
+            "name": "Tulen",
+            "position": ["mage"],
+            "img_pf": "Tulen.png",
+            "img_bg": "Tulen-bg.jpg"
+        },
+        {
+            "id": "92",
+            "name": "Valhein",
+            "position": ["carry"],
+            "img_pf": "Valhein.png",
+            "img_bg": "Valhein-bg.png"
+        },
+        {
+            "id": "93",
+            "name": "Veera",
+            "position": ["mage"],
+            "img_pf": "Veera.jpg",
+            "img_bg": "Veera-bg.jpg"
+        },
+        {
+            "id": "94",
+            "name": "Veres",
+            "position": ["fighter"],
+            "img_pf": "Veres.png",
+            "img_bg": "Veres-bg.jpg"
+        },
+        {
+            "id": "95",
+            "name": "Violet",
+            "position": ["carry"],
+            "img_pf": "Violet.png",
+            "img_bg": "Violet-bg.jpg"
+        },
+        {
+            "id": "96",
+            "name": "Volkath",
+            "position": ["fighter"],
+            "img_pf": "Volkath.jpg",
+            "img_bg": "Volkath-bg.jpg"
+        },
+        {
+            "id": "97",
+            "name": "Wiro",
+            "position": ["fighter", "tank"],
+            "img_pf": "Wiro.png",
+            "img_bg": "Wiro-bg.jpg"
+        },
+        {
+            "id": "98",
+            "name": "Wisp",
+            "position": ["carry"],
+            "img_pf": "Wisp.png",
+            "img_bg": "Wisp-bg.jpg"
+        },
+        {
+            "id": "99",
+            "name": "Wonder Woman",
+            "position": ["fighter"],
+            "img_pf": "Wonder Woman.png",
+            "img_bg": "Wonder Woman-bg.jpg"
+        },
+        {
+            "id": "100",
+            "name": "WuKong",
+            "position": ["assassin", "fighter"],
+            "img_pf": "WuKong.jpg",
+            "img_bg": "WuKong-bg.jpg"
+        },
+        {
+            "id": "101",
+            "name": "Xeniel",
+            "position": ["fighter", "tank", "support"],
+            "img_pf": "Xeniel.png",
+            "img_bg": "Xeniel-bg.jpg"
+        },
+        {
+            "id": "102",
+            "name": "Yan",
+            "position": ["fighter"],
+            "img_pf": "Yan.jpg",
+            "img_bg": "Yan-bg.jpg"
+        },
+        {
+            "id": "103",
+            "name": "Y'bneth",
+            "position": ["tank", "support"],
+            "img_pf": "Y'bneth.png",
+            "img_bg": "Y'bneth-bg.jpg"
+        },
+        {
+            "id": "104",
+            "name": "Yena",
+            "position": ["fighter"],
+            "img_pf": "Yena.jpeg",
+            "img_bg": "Yena-bg.jpg"
+        },
+        {
+            "id": "105",
+            "name": "Yorn",
+            "position": ["carry"],
+            "img_pf": "Yorn.png",
+            "img_bg": "Yorn-bg.jpg"
+        },
+        {
+            "id": "106",
+            "name": "Yue",
+            "position": ["mage"],
+            "img_pf": "Yue.jpg",
+            "img_bg": "Yue-bg.jpg"
+        },
+        {
+            "id": "107",
+            "name": "Zanis",
+            "position": ["assassin", "fighter"],
+            "img_pf": "Zanis.png",
+            "img_bg": "Zanis-bg.jpg"
+        },
+        {
+            "id": "108",
+            "name": "Zata",
+            "position": ["mage"],
+            "img_pf": "Zata.jpg",
+            "img_bg": "Zata-bg.jpg"
+        },
+        {
+            "id": "109",
+            "name": "Zephys",
+            "position": ["assassin", "fighter"],
+            "img_pf": "Zephys.jpg",
+            "img_bg": "Zephys-bg.jpg"
+        },
+        {
+            "id": "110",
+            "name": "Zill",
+            "position": ["assassin", "mage"],
+            "img_pf": "Zill.png",
+            "img_bg": "Zill-bg.jpg"
+        },
+        {
+            "id": "111",
+            "name": "Zip",
+            "position": ["tank", "support"],
+            "img_pf": "Zip.jpeg",
+            "img_bg": "Zip-bg.jpg"
+        },
+        {
+            "id": "112",
+            "name": "Zuka",
+            "position": ["fighter"],
+            "img_pf": "Zuka.png",
+            "img_bg": "Zuka-bg.jpg"
+        }
+    ]
+}

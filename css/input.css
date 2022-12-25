@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .team {
+        @apply p-4 w-5/6 sm:w-2/3
+    }
+
+    .under-input {
+        @apply px-4 py-1 rounded-lg border-b-2 border-transparent focus:border-white focus:outline-0
+    }
+
+    .btn-yellow {
+        @apply rounded-full bg-yellow-500 text-black hover:text-white hover:bg-yellow-600
+    }
+
+    .btn-t-yellow {
+        @apply rounded-full text-white hover:text-black hover:bg-yellow-500
+    }
+}

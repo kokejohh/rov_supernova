@@ -1,0 +1,44 @@
+.filterhero {
+    width: 30px;
+    height: 30px;
+    background-size: cover !important;
+}
+
+.filterhero-active {
+    background-position: 0 -34px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .filterhero {
+        width: 20px;
+        height: 20px;
+        background-color: cover !important;
+    }
+    .filterhero-active {
+        background-position: 0 -23px !important;
+    }
+}
+
+.type_assassin {
+    background: url('../img/position/assassin.png') no-repeat 0 0;
+}
+
+.type_mage {
+    background: url('../img/position/mage.png') no-repeat 0 0;
+}
+
+.type_fighter {
+    background: url('../img/position/fighter.png') no-repeat 0 0;
+}
+
+.type_carry {
+    background: url('../img/position/carry.png') no-repeat 0 0;
+}
+
+.type_tank {
+    background: url('../img/position/tank.png') no-repeat 0 0;
+}
+
+.type_support {
+    background: url('../img/position/support.png') no-repeat 0 0;
+}
