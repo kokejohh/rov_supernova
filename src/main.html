@@ -9,9 +9,8 @@
     <title>Main</title>
 </head>
 
-<body class="bg-slate-500">
-    <nav class="bg-slate-700 flex justify-between">
-        <div class="flex">
+<body class="bg-slate-500 flex flex-col h-screen">
+    <nav class="bg-slate-700 flex justify-start">
             <a href="#">
                 <div class="p-4 space-y-1">
                     <div class="w-6 h-0.5 bg-white"></div>
@@ -20,76 +19,63 @@
                 </div>
             </a>
             <a href="./index.html"><img class="h-10" src="../img/logo_removebg.png"></a>
-        </div>
-    </nav>
-    
-    <div class="flex justify-between text-md sm:text-2xl text-white">
-        <div class="p-1 sm:p-2 px-4 bg-blue-900 w-1/3 text-end">Blue</div>
+    </nav>    
+    <div class="my-auto flex justify-between text-2xl text-white">
+        <div class="px-4 bg-blue-900 w-1/3 text-end text-2xl">Blue</div>
         <div class="text-center">
-            <div>
-                30
-            </div>
-            <div>
-                blue pick
-            </div>
+            <div> 30 blue pick </div>
         </div>
-        <div class="p-1 sm:p-2 px-4 bg-red-900 w-1/3 text-start">Red</div>
+        <div class="px-4 bg-red-900 w-1/3 text-start">Red</div>
     </div>
-    <div class="main flex mt-4 p-4">
-        <div class="select border-red-900 flex flex-col justify-around space-y-4 w-1/6">
-            <div id="first_pick" class=" bg-blue-400 h-10 sm:h-20 md:h-24 bg-cover"></div>
-            <div id="second_pick" class=" bg-blue-400 h-10 sm:h-20 md:h-24 bg-cover"></div>
-            <div id="third_pick" class=" bg-blue-400 h-10 sm:h-20 md:h-24 bg-cover"></div>
-            <div id="fourth_pick" class=" bg-blue-400 h-10 sm:h-20 md:h-24 bg-cover"></div>
-            <div id="fifth_pick" class=" bg-blue-400 h-10 sm:h-20 md:h-24 bg-cover"></div>
+    <div class="main my-auto flex h-5/6">
+        <div class="select flex flex-col basis-1/6 justify-around h-full items-center">
+            <div id="first_pick" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
+            <div id="second_pick" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
+            <div id="third_pick" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
+            <div id="fourth_pick" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
+            <div id="fifth_pick" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
         </div>
-        <div class="ban w-1/12 flex flex-col items-center justify-around text-white">
-            <div class="text-sm sm:text-2xl">Ban</div>
-            <img id="first_ban" class="border bg-red-400 h-6 w-6 sm:w-14 sm:h-14 md:w-20 md:h-20 w-min-full">
-            <img id="second_ban" class="border bg-red-400 h-6 w-6 sm:h-20 sm:w-20">
-            <img id="third_ban" class="border bg-red-400 h-6 w-6 sm:h-20 sm:w-20">
-            <img id="fourth_ban" class="border bg-red-400 h-6 w-6 sm:h-20 sm:w-20">
-            <img id="fifth_ban" class="border bg-red-400 h-6 w-6 sm:h-20 sm:w-20">                     
-        </div>
-   
-        <div class="character w-3/6 p-4">
-            <div class="">
-                <div class="flex justify-between">
-                    <div id="filter">
-                        <button id="assassin" class="type_assassin filterhero"></button>
-                        <button id="mage" class="type_mage filterhero"></button>
-                        <button id="fighter" class="type_fighter filterhero"></button>
-                        <button id="carry" class="type_carry filterhero"></button>
-                        <button id="tank" class="type_tank filterhero"></button>
-                        <button id="support" class="type_support filterhero"></button>
-                    </div>
-                </div>
-                <div class="h-96">
-                    <div id="character_panel" class="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 gap-0.5 sm:gap-2 overflow-auto max-h-full">
-                    <!--champions-->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ban w-1/12 flex flex-col items-center justify-around space-y-4 text-white">
-            <div class="text-sm sm:text-2xl">Ban</div>
-            <img id="first_ban2" class="border bg-red-400 h-6 w-6 sm:w-20 sm:h-20">
-            <img id="second_ban2" class="border bg-red-400 h-6 w-6 sm:h-20 sm:w-20">
-            <img id="third_ban2" class="border bg-red-400 h-6 w-6 sm:h-20 sm:w-20">
-            <img id="fourth_ban2" class="border bg-red-400 h-6 w-6 sm:h-20 sm:w-20">
-            <img id="fifth_ban2" class="border bg-red-400 h-6 w-6 sm:h-20 sm:w-20">                     
-        </div>
-        <div class="select border-red-900 flex flex-col justify-around w-1/6">
-            <div id="first_pick2" class="bg-blue-400 h-10 sm:h-20 md:h-24 bg-cover"></div>
-            <div id="second_pick2" class=" bg-blue-400 h-10 sm:h-20 md:h-24 bg-cover"></div>
-            <div id="third_pick2" class=" bg-blue-400 h-10 sm:h-20 md:h-24 bg-cover"></div>
-            <div id="fourth_pick2" class=" bg-blue-400 h-10 sm:h-20 md:h-24 bg-cover"></div>
-            <div id="fifth_pick2" class=" bg-blue-400 h-10 sm:h-20 md:h-24 bg-cover"></div>
+        
+        <div class="ban flex flex-col my-auto basis-1/12 justify-between text-white h-full">
+                <img id="first_ban" class=" bg-red-400 h-1/6">
+                <img id="second_ban" class=" bg-red-400 h-1/6">
+                <img id="third_ban" class=" bg-red-400 h-1/6">
+                <img id="fourth_ban" class=" bg-red-400 h-1/6">
+                <img id="fifth_ban" class=" bg-red-400 h-1/6">                     
         </div>
 
-    </div>
-    <div class="text-center ">
-        <button id="btn_lock" class="p-2 sm:p-4 btn-yellow">Lock</butt>
+        <div class="character flex flex-col basis-4/6 justify-between h-full">
+            <div class="flex-none justify-between">
+                <div id="filter">
+                    <button id="assassin" class="type_assassin filterhero"></button>
+                    <button id="mage" class="type_mage filterhero"></button>
+                    <button id="fighter" class="type_fighter filterhero"></button>
+                    <button id="carry" class="type_carry filterhero"></button>
+                    <button id="tank" class="type_tank filterhero"></button>
+                    <button id="support" class="type_support filterhero"></button>
+                </div>
+            </div>
+            <div id="character_panel" class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-px sm:gap-2 overflow-auto mh-full">
+                <!--champions-->
+            </div>
+            <button id="btn_lock" class="p-4 btn-yellow w-1/3 sm:w-1/2 my-4 mx-auto">Lock</button>
+        </div>
+
+        <div class="ban flex flex-col basis-1/12 items-center justify-between text-white h-full">
+            <img id="first_ban2" class=" bg-red-400 h-1/6 w-full">
+            <img id="second_ban2" class=" bg-red-400 h-1/6 w-full ">
+            <img id="third_ban2" class=" bg-red-400 h-1/6 w-full">
+            <img id="fourth_ban2" class=" bg-red-400 h-1/6 w-full">
+            <img id="fifth_ban2" class=" bg-red-400 h-1/6 w-full">                     
+        </div>
+
+        <div class="select flex flex-col basis-1/6 justify-around h-full items-center">
+            <div id="first_pick2" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
+            <div id="second_pick2" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
+            <div id="third_pick2" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
+            <div id="fourth_pick2" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
+            <div id="fifth_pick2" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
+        </div>
     </div>
     <script src="../js/main.js"></script>
 </body>

@@ -4,18 +4,18 @@ function banned_or_selected(event) {
     const evt = event.currentTarget;
     const btns = this.parentElement.children;
     for (const btn of btns) {
+        const img_class = btn.firstElementChild.classList;
         if (!btn.classList.contains('selected')) {
-            btn.classList.remove('grayscale');
+            img_class.remove('grayscale');
         }
     }
     selects.delete(lastSelect)
-
-    this.classList.add('grayscale');
-    if (this.classList.contains('grayscale')) {
+    this.firstChild.classList.add('grayscale');
+    if (this.firstChild.classList.contains('grayscale')) {
         selects.add(this.firstChild.title);
         lastSelect = this.firstChild.title;
     }
-    console.log(selects);
+
     if (evt.isBan) {
         evt.elm.setAttribute('src', `../img/character/${evt.character.img_pf}`);
     } else {
@@ -53,12 +53,20 @@ const data = async (pos) => {
             img.setAttribute('src', `../img/character/${character.img_pf}`);
             img.classList.add('border-2', 'sm:border-4', 'border-black', 'w-full');
             btn.appendChild(img);
+
+            btn.classList.add('relative');
             if (selects.has(character.name)) {
-                btn.classList.add('grayscale', 'selected');
+                btn.firstElementChild.classList.add('grayscale');
+                btn.classList.add('selected');
+                const img_disabled = document.createElement('img');
+                img_disabled.setAttribute('src', "../img/disable.png");
+                img_disabled.classList.add('absolute', 'inset-y-0', 'left-0', 'w-full');
+                btn.appendChild(img_disabled);
                 btn.disabled = true;
             }
             if (character.name == lastSelect) {
                 btn.classList.remove('selected');
+                btn.removeChild(btn.lastElementChild);
             }
             character_panel.appendChild(btn);
             
@@ -113,7 +121,12 @@ btn_lock.addEventListener('click', () => {
             btn.elm = orders[step].status;
             btn.isBan = orders[step].isBan;
         }
-        if (btn.classList.contains('grayscale')) {
+        if (btn.firstElementChild.classList.contains('grayscale')) {
+            const img_disabled = document.createElement('img');
+            img_disabled.setAttribute('src', "../img/disable.png");
+            img_disabled.classList.add('absolute', 'inset-y-0', 'left-0', 'w-full');
+            btn.appendChild(img_disabled);
+            
             btn.classList.add('selected');
             btn.disabled = true;
         }
