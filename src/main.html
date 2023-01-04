@@ -9,7 +9,7 @@
     <title>Main</title>
 </head>
 
-<body class="bg-slate-500 flex flex-col h-screen">
+<body class="bg-gradient-to-r from-blue-900 via-slate-800 to-red-900 flex flex-col h-screen">
     <nav class="bg-slate-700 flex justify-start">
             <a href="#">
                 <div class="p-4 space-y-1">
@@ -27,25 +27,31 @@
         </div>
         <div class="px-4 bg-red-900 w-1/3 text-start">Red</div>
     </div>
-    <div class="main my-auto flex h-5/6">
-        <div class="select flex flex-col basis-1/6 justify-around h-full items-center">
-            <div id="first_pick" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
-            <div id="second_pick" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
-            <div id="third_pick" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
-            <div id="fourth_pick" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
-            <div id="fifth_pick" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
+    <div class="main flex justify-between h-5/6">
+        <div class="select flex flex-col basis-1/12 justify-between py-2 ml-2 sm:ml-4 h-full">
+            <div id="first_pick" class="img-champion outline-blue-700"></div>
+            <div id="second_pick" class="img-champion outline-blue-700" ></div>
+            <div id="third_pick" class="img-champion outline-blue-700"></div>
+            <div id="fourth_pick" class="img-champion outline-blue-700"></div>
+            <div id="fifth_pick" class="img-champion outline-blue-700"></div>
         </div>
-        
-        <div class="ban flex flex-col my-auto basis-1/12 justify-between text-white h-full">
-                <img id="first_ban" class=" bg-red-400 h-1/6">
-                <img id="second_ban" class=" bg-red-400 h-1/6">
-                <img id="third_ban" class=" bg-red-400 h-1/6">
-                <img id="fourth_ban" class=" bg-red-400 h-1/6">
-                <img id="fifth_ban" class=" bg-red-400 h-1/6">                     
+            
+        <div class="ban flex flex-col basis-1/12 justify-around mx-auto h-full">
+            <div class="flex flex-col items-center space-y-2">
+                <img id="first_ban" class="aspect-square w-2/3 skew-y-3" src="../img/champion.png">
+                <img id="second_ban" class="aspect-square w-2/3 skew-y-3" src="../img/champion.png">
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+                <img id="third_ban" class="aspect-square w-2/3 skew-y-3" src="../img/champion.png">
+                <img id="fourth_ban" class="aspect-square w-2/3 skew-y-3" src="../img/champion.png">
+            </div>
+            <div class="flex flex-col items-center">
+                <img id="fifth_ban" class="aspect-square w-2/3 skew-y-3" src="../img/champion.png">
+            </div>
         </div>
 
         <div class="character flex flex-col basis-4/6 justify-between h-full">
-            <div class="flex-none justify-between">
+            <div class="flex-none justify-between w-5/6 mx-auto">
                 <div id="filter">
                     <button id="assassin" class="type_assassin filterhero"></button>
                     <button id="mage" class="type_mage filterhero"></button>
@@ -55,28 +61,35 @@
                     <button id="support" class="type_support filterhero"></button>
                 </div>
             </div>
-            <div id="character_panel" class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-px sm:gap-2 overflow-auto mh-full">
+            <div id="character_panel" class="grid grid-cols-6 sm:grid-cols-7 md:grid-cols-8 gap-0.5 sm:gap-2 overflow-auto max-h-full w-5/6 mx-auto">
                 <!--champions-->
             </div>
             <button id="btn_lock" class="p-4 btn-yellow w-1/3 sm:w-1/2 my-4 mx-auto">Lock</button>
         </div>
 
-        <div class="ban flex flex-col basis-1/12 items-center justify-between text-white h-full">
-            <img id="first_ban2" class=" bg-red-400 h-1/6 w-full">
-            <img id="second_ban2" class=" bg-red-400 h-1/6 w-full ">
-            <img id="third_ban2" class=" bg-red-400 h-1/6 w-full">
-            <img id="fourth_ban2" class=" bg-red-400 h-1/6 w-full">
-            <img id="fifth_ban2" class=" bg-red-400 h-1/6 w-full">                     
+        <div class="ban flex flex-col basis-1/12 justify-around items-center h-full">
+            <div class="flex flex-col items-center space-y-2">
+                <img id="first_ban2" class="aspect-square w-2/3 -skew-y-3 " src="../img/champion.png">
+                <img id="second_ban2" class="aspect-square w-2/3 -skew-y-3 " src="../img/champion.png">
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+                <img id="third_ban2" class="aspect-square w-2/3 -skew-y-3 " src="../img/champion.png">
+                <img id="fourth_ban2" class="aspect-square w-2/3 -skew-y-3 " src="../img/champion.png">
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+                <img id="fifth_ban2" class="aspect-square w-2/3 -skew-y-3 " src="../img/champion.png">
+            </div>
         </div>
 
-        <div class="select flex flex-col basis-1/6 justify-around h-full items-center">
-            <div id="first_pick2" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
-            <div id="second_pick2" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
-            <div id="third_pick2" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
-            <div id="fourth_pick2" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
-            <div id="fifth_pick2" class=" bg-blue-400 h-1/6 w-5/6 bg-cover"></div>
+         <div class="select flex flex-col basis-1/12 justify-between py-2 mr-2 sm:mr-4 h-full">
+            <div id="first_pick2" class="img-champion outline-red-700"></div>
+            <div id="second_pick2" class="img-champion outline-red-700"></div>
+            <div id="third_pick2" class="img-champion outline-red-700"></div>
+            <div id="fourth_pick2" class="img-champion outline-red-700"></div>
+            <div id="fifth_pick2" class="img-champion outline-red-700"></div>
         </div>
     </div>
     <script src="../js/main.js"></script>
+    <script src="./test.js"></script>
 </body>
 </html>

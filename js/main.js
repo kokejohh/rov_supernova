@@ -7,14 +7,19 @@ function banned_or_selected(event) {
         const img_class = btn.firstElementChild.classList;
         if (!btn.classList.contains('selected')) {
             img_class.remove('grayscale');
+            btn.disabled = false;
         }
     }
-    selects.delete(lastSelect)
+    
+    this.disabled = true;
     this.firstChild.classList.add('grayscale');
-    if (this.firstChild.classList.contains('grayscale')) {
-        selects.add(this.firstChild.title);
-        lastSelect = this.firstChild.title;
-    }
+    selects.delete(lastSelect);
+    lastSelect = this.firstChild.title;
+    selects.add(lastSelect);
+
+    ((!evt.elm.id.match('2') && evt.character.look === 'left') ||
+        (evt.elm.id.match('2') && evt.character.look === 'right')) ?
+            evt.elm.classList.add('-scale-x-100') : evt.elm.classList.remove('-scale-x-100');
 
     if (evt.isBan) {
         evt.elm.setAttribute('src', `../img/character/${evt.character.img_pf}`);
@@ -36,6 +41,7 @@ const orders = [
                 { status: fifth_ban, isBan: true }, { status: fifth_ban2, isBan: true },
                 { status: fifth_pick, isBan: false }, { status: fifth_pick2, isBan: false }
             ];
+
 let selects = new Set();
 let lastSelect;
 
@@ -43,7 +49,7 @@ const data = async (pos) => {
     character_panel.innerHTML = '';
 
     const characters = (await characters_json()).character;
-
+    
     characters.forEach(character => {
         if (pos === undefined || character.position.includes(pos)) {
             const btn = document.createElement('button');
@@ -51,10 +57,12 @@ const data = async (pos) => {
             img.setAttribute('title', character.name);
             img.setAttribute('alt', character.name);
             img.setAttribute('src', `../img/character/${character.img_pf}`);
-            img.classList.add('border-2', 'sm:border-4', 'border-black', 'w-full');
+            img.classList.add('border', 'border-0.5', 'sm:border-2', 'border-slate-900', 'w-full');
+            
             btn.appendChild(img);
 
             btn.classList.add('relative');
+   
             if (selects.has(character.name)) {
                 btn.firstElementChild.classList.add('grayscale');
                 btn.classList.add('selected');
@@ -122,13 +130,15 @@ btn_lock.addEventListener('click', () => {
             btn.isBan = orders[step].isBan;
         }
         if (btn.firstElementChild.classList.contains('grayscale')) {
-            const img_disabled = document.createElement('img');
-            img_disabled.setAttribute('src', "../img/disable.png");
-            img_disabled.classList.add('absolute', 'inset-y-0', 'left-0', 'w-full');
-            btn.appendChild(img_disabled);
-            
-            btn.classList.add('selected');
-            btn.disabled = true;
+            if (btn.childElementCount === 1) {
+                const img_disabled = document.createElement('img');
+                img_disabled.setAttribute('src', "../img/disable.png");
+                img_disabled.classList.add('absolute', 'inset-y-0', 'left-0', 'w-full');
+                btn.appendChild(img_disabled);
+                
+                btn.classList.add('selected');
+                btn.disabled = true;
+            }
         }
     }
     lastSelect = '';
