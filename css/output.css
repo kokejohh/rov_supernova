@@ -571,7 +571,7 @@ video {
 .img-champion {
   aspect-ratio: 4/3;
   width: 100%;
-  background-image: url('/img/champion.png');
+  background-image: url('../img/champion.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
